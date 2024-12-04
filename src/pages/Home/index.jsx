@@ -28,7 +28,13 @@ function Home() {
   }
 
   async function deleteUsers(id) {
-    await api.delete(`/usuarios/${id}`)
+    try {
+      await api.delete(`/usuarios/${id}`);
+
+      window.location.reload();
+    } catch (error) {
+      console.error("Erro ao deletar usuário:", error);
+    }
   }
 
   useEffect(() => {
