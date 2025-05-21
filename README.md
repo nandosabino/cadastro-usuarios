@@ -1,8 +1,40 @@
-# React + Vite
+# 💻 Front-End - Cadastro de Usuários (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interface web desenvolvida em **React.js** para consumir a API de cadastro de usuários. Permite que o usuário se registre, faça login, visualize dados e edite ou exclua sua conta, interagindo com a API desenvolvida em Node.js.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React.js
+- Axios
+- React Router
+- Tailwind CSS (ou outra lib de estilo, se aplicável)
+- Context API / LocalStorage (para autenticação)
+- Vite (caso tenha usado)
+
+## 📦 Funcionalidades
+
+- [x] Cadastro de novos usuários
+- [x] Login com autenticação (JWT via API)
+- [x] Listagem de usuários
+- [x] Edição e exclusão de usuários
+- [x] Layout responsivo
+
+## 🔗 Back-End
+
+A API está disponível neste repositório:  
+👉 [Back-End - API de Usuários (Node.js)](https://github.com/nandosabino/API-CADASTRO-DE-USUARIOS)
+
+## 📁 Como Rodar o Projeto
+
+```bash
+# Clone o repositório
+git clone https://github.com/seuusuario/frontend-cadastro-usuarios
+
+# Acesse a pasta
+cd frontend-cadastro-usuarios
+
+# Instale as dependências
+npm install
+
+# Rode o projeto
+npm run dev
