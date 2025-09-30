@@ -6,7 +6,7 @@ Interface web da aplicação de cadastro de usuários. Desenvolvida com React e 
 
 ## Preview 🖼️
 
-![Preview da interface de cadastro](./public/preview.png)
+![Preview da interface de cadastro](public/Preview.png)
 
 ---
 
