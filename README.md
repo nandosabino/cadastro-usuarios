@@ -1,40 +1,53 @@
-# 💻 Front-End - Cadastro de Usuários (React)
+# 🧑‍💻 Cadastro de Usuários – Frontend
 
-Interface web desenvolvida em **React.js** para consumir a API de cadastro de usuários. Permite que o usuário se registre, faça login, visualize dados e edite ou exclua sua conta, interagindo com a API desenvolvida em Node.js.
+Interface web da aplicação de cadastro de usuários. Desenvolvida com React e conectada à API para operações de CRUD (criação, leitura, atualização e exclusão) de usuários.
+
+---
+
+## Preview 🖼️
+
+![Preview da interface de cadastro](./public/preview.png)
+
+---
+
+## Deploy / Link 🔗
+
+🌐 [Acesse o frontend online](https://cadastro-usuarios-rosy.vercel.app)
+
+---
 
 ## 🚀 Tecnologias Utilizadas
 
-- React.js
-- Axios
+- React
+- Vite
+- CSS / TailwindCSS
 - React Router
-- Tailwind CSS (ou outra lib de estilo, se aplicável)
-- Context API / LocalStorage (para autenticação)
-- Vite (caso tenha usado)
+- fetch / axios para requisições
+- Controle de estado com hooks (useState, useEffect etc.)  
 
 ## 📦 Funcionalidades
 
-- [x] Cadastro de novos usuários
-- [x] Login com autenticação (JWT via API)
-- [x] Listagem de usuários
-- [x] Edição e exclusão de usuários
-- [x] Layout responsivo
+- Formulário de cadastro de usuários  
+- Listagem dos usuários cadastrados  
+- Edição de dados dos usuários  
+- Remoção de usuários  
+- Validações de formulário (campos obrigatórios, formatos)  
+- Comunicação com a API via endpoints REST  
+- Tratamento de erros e feedback visual  
+- Layout responsivo para devices diversos  
 
-## 🔗 Back-End
+---
 
-A API está disponível neste repositório:  
-👉 [Back-End - API de Usuários (Node.js)](https://github.com/nandosabino/API-CADASTRO-DE-USUARIOS)
-
-## 📁 Como Rodar o Projeto
+## 🚀 Como Rodar Localmente
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seuusuario/frontend-cadastro-usuarios
+git clone https://github.com/nandosabino/cadastro-usuarios.git
 
-# Acesse a pasta
-cd frontend-cadastro-usuarios
+cd cadastro-usuarios
 
-# Instale as dependências
+# Instale dependências
 npm install
 
-# Rode o projeto
+# Rode em modo de desenvolvimento
 npm run dev
